@@ -17,7 +17,7 @@ let users = [
 
 
 Array.prototype.myForEachFilter = function(arr) {
-    newArray = []
+     let newArray = []
     for (let someElement of this) {
         if (arr(someElement)) {
             newArray.push(someElement);
